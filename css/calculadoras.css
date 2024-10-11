@@ -10,7 +10,6 @@ body {
 @media(max-width: 799px) {
     .card-index {
         width: 95% !important;
-        height: 100% !important;
     }
 
     .radio-group {
@@ -126,4 +125,10 @@ body {
 
 .woman:hover {
     background-color: #e7c4ff;
+}
+
+.card-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

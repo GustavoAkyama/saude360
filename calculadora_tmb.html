@@ -26,7 +26,7 @@
             <div class="card-content">
                 <div>
                     <div class="title">
-                        <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de IMC
+                        <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de TMB
                     </div>
                     <form>
                         <div class="mb-3">
@@ -56,38 +56,37 @@
                         </div>
                     </form>
                 </div>
-                <button class="btn btn-primary" style="font-weight: bold;" onclick="calcularIMC()">
-                    Calcular IMC
+                <button class="btn btn-primary" style="font-weight: bold;" onclick="calcularTMB()">
+                    Calcular TMB
                 </button>
             </div>
         </div>
         <div class="card-index">
-            <div
-                style="display: flex; flex-direction: row; justify-content: space-evenly; height: 80%;">
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly; height: 80%;">
                 <div class="card-result">
                     <div id="result" class="card" style="padding: 32px; display: none;">
                         <div class="title">
                             <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Resultado
                         </div>
                         <div>
+                            <div id="result-text" style="margin-bottom: 8px;"></div>
                             <span style="font-weight: bold;" id="result-text-class"></span>
-                            <div id="result-text" style="margin-top: 8px;"></div>
                         </div>
                     </div>
                     <div>
                         <div class="title">
-                            <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de IMC
+                            <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de TMB
                         </div>
                         <div style="margin-bottom: 12px;">
-                            A Calculadora de IMC (Índice de Massa Corporal) é uma ferramenta simples e prática que ajuda
+                            A Calculadora de TMB (Taxa Metabólica Basal) é uma ferramenta essencial que ajuda a estimar
                             a
-                            avaliar a relação entre o peso e a altura de uma pessoa. Sua principal função é calcular o
-                            IMC.
+                            quantidade de calorias que o corpo queima em repouso, levando em consideração fatores como
+                            idade, sexo, peso e altura.
                         </div>
                         <div>
-                            Ao inserir esses dados, a calculadora fornece o valor do IMC e indica a faixa em que a
-                            pessoa se
-                            encontra: abaixo do peso, peso normal, sobrepeso ou obesidade.
+                            Ao inserir essas informações, a calculadora fornece o valor da TMB, que pode ser usado como
+                            base
+                            para o planejamento de dietas e treinos.
                         </div>
                     </div>
                 </div>

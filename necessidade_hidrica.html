@@ -26,7 +26,8 @@
             <div class="card-content">
                 <div>
                     <div class="title">
-                        <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de IMC
+                        <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de Necessidade
+                        Hídrica
                     </div>
                     <form>
                         <div class="mb-3">
@@ -48,46 +49,39 @@
                             <input type="text" class="form-control" id="peso" name="peso" placeholder="Digite seu peso"
                                 required>
                         </div>
-
-                        <div class="mb-3" style="border-bottom: 24px;">
-                            <label for="altura" class="form-label">Altura (cm):</label>
-                            <input type="text" class="form-control" id="altura" name="altura"
-                                placeholder="Digite sua altura" required>
-                        </div>
                     </form>
                 </div>
-                <button class="btn btn-primary" style="font-weight: bold;" onclick="calcularIMC()">
-                    Calcular IMC
+                <button class="btn btn-primary" style="font-weight: bold;" onclick="calcularNH()">
+                    Calcular Necessidade Hídrica
                 </button>
             </div>
         </div>
         <div class="card-index">
-            <div
-                style="display: flex; flex-direction: row; justify-content: space-evenly; height: 80%;">
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly; height: 80%;">
                 <div class="card-result">
                     <div id="result" class="card" style="padding: 32px; display: none;">
                         <div class="title">
                             <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Resultado
                         </div>
                         <div>
+                            <div id="result-text" style="margin-bottom: 8px;"></div>
                             <span style="font-weight: bold;" id="result-text-class"></span>
-                            <div id="result-text" style="margin-top: 8px;"></div>
                         </div>
                     </div>
                     <div>
                         <div class="title">
-                            <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de IMC
+                            <i class="bi bi-calculator-fill" style="margin-right: 8px;"></i>Calculadora de Hidratação
+                            Diária
                         </div>
                         <div style="margin-bottom: 12px;">
-                            A Calculadora de IMC (Índice de Massa Corporal) é uma ferramenta simples e prática que ajuda
-                            a
-                            avaliar a relação entre o peso e a altura de uma pessoa. Sua principal função é calcular o
-                            IMC.
+                            A Calculadora de Necessidade Hídrica é uma ferramenta prática que ajuda a determinar a
+                            quantidade ideal de água que uma pessoa deve consumir diariamente, levando em conta fatores
+                            como
+                            peso, nível de atividade física e condições climáticas.
                         </div>
                         <div>
-                            Ao inserir esses dados, a calculadora fornece o valor do IMC e indica a faixa em que a
-                            pessoa se
-                            encontra: abaixo do peso, peso normal, sobrepeso ou obesidade.
+                            Ao inserir essas informações, a calculadora fornece uma estimativa da ingestão hídrica
+                            necessária para otimizar funções corporais.
                         </div>
                     </div>
                 </div>

@@ -1277,6 +1277,18 @@ h6 {
   align-items: center;
 }
 
+@media(max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    height: 120px;
+    padding: 4px;
+  }
+
+  .footer .footer-div {
+    padding: 8px;
+  }
+}
+
 .footer a {
   color: #dddddd;
 }

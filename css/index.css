@@ -41,11 +41,11 @@
     height: 380px;
 }
 
-@media (max-width: 359px) {
+@media (max-width: 360px) {
     .container-image {
-        min-height: 800px !important;
         display: flex;
         flex-direction: column;
+        min-height: 1000px !important;
     }
 }
 
@@ -56,7 +56,7 @@
     }
 
     .container-image {
-        min-height: 540px;
+        min-height: 640px;
     }
 
     .container-image-image {
@@ -64,7 +64,8 @@
     }
 
     .card-index {
-        min-width: 90% !important;
+        width: 100% !important;
+        height: 800px !important;
     }
 }
 
