@@ -1,4 +1,4 @@
-const apiKey = process.env.API_KEY;
+const apiKey = API_KEY;
 const url = `https://gnews.io/api/v4/search?apikey=${apiKey}&in=title&q="saúde"&country=br`;
 
 function renderNews(articles) {
